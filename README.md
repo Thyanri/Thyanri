@@ -1,118 +1,90 @@
-<!-- HEADER ANIMADO -->
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0F2027,50:2C5364,100:00C9A7&text=Thyan%20&fontSize=50&fontAlign=50&fontAlignY=40&desc=Software%20Engineer%20%7C%20Growth%20Builder&descAlign=50&descAlignY=65&animation=fadeIn"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,50:1e293b,100:14b8a6&text=Thyan%20Rithyan&fontAlign=50&fontAlignY=38&fontSize=52&desc=Software%20Engineer%20%E2%80%A2%20Growth%20Systems%20%E2%80%A2%20AI%20Automations&descAlign=50&descAlignY=64&animation=fadeIn" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=900&color=14B8A6&center=true&vCenter=true&width=900&lines=I+build+software+that+needs+to+work%2C+sell%2C+and+scale.;Code.+Growth.+Automation.+Execution.;Always+improving+1%25+every+day." />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/rithyan/">
+    <img src="https://img.shields.io/badge/LinkedIn-Rithyan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=Thyanri&style=for-the-badge&color=0ea5e9" alt="profile views" />
 </p>
 
 ---
 
-<!-- TEXTO DIGITANDO -->
-<p align="center">
+## About me
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=800&color=00C9A7&center=true&vCenter=true&width=650&lines=Software+Engineer;Growth+Marketing+Engineer;Automation+Builder;AI+Systems+Builder;Game+Development+Background;Always+improving+1%25+every+day"/>
+I build software, growth systems and automations.
 
-</p>
-
----
-
-# 👋 About Me
-
-I build **systems, growth engines and automation.**
-
-My work sits between:
+My background sits between:
 
 - software engineering
-- SaaS growth
-- AI systems
-- automation pipelines
+- SaaS and revenue growth
+- AI workflows and automations
+- product thinking
+- gaming / esports media
 
-I like building things that **generate real impact**, not just code.
+I like building things that are useful in the real world:
 
-Background includes:
+- internal tools
+- commercial systems
+- automations
+- dashboards
+- AI agents
 
-- SaaS product growth
-- AI automation systems
-- game development (Lua / FiveM)
-- esports media production
-
-**Philosophy**
-
-> Improve a little every day.
+> I don't care much about noise.  
+> I care about execution, leverage and getting 1% better every day.
 
 ---
 
-# 🚀 Tech Stack
+## Core metrics
 
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=python,typescript,java,lua,nodejs,docker,redis,supabase,postgres,git"/>
-
+  <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
 </p>
 
 ---
 
-# 📊 GitHub Stats
+## Deep dive
 
 <p align="center">
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=Thyanri&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Thyanri&layout=compact&theme=tokyonight&hide_border=true"/>
-
+  <img src="./github-metrics-right.svg" alt="GitHub Metrics Right" width="49%" />
+  <img src="https://streak-stats.demolab.com?user=Thyanri&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" width="49%" />
 </p>
 
 ---
 
-# 📈 Activity Graph
+## Stack
 
 <p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Thyanri&theme=tokyo-night&hide_border=true"/>
-
+  <img src="https://skillicons.dev/icons?i=python,ts,java,lua,nodejs,react,nextjs,docker,redis,supabase,postgres,git,github" />
 </p>
 
 ---
 
-# 🏆 Achievements
+## Contribution snake
 
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Thyanri&theme=tokyonight&no-frame=true&margin-w=10"/>
-
-</p>
-
----
-
-# 🎮 Gaming Background
-
-Experience with:
-
-- esports media
-- camera operation for competitive matches
-- highlight capture
-- storytelling in gaming
-- FiveM development
-
-Gaming taught me:
-
-**execution and timing matter.**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Thyanri/Thyanri/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Thyanri/Thyanri/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Thyanri/Thyanri/output/github-contribution-grid-snake.svg" />
+</picture>
 
 ---
 
-# 🌐 Connect With Me
+## What I usually build
 
-<p align="center">
-
-<a href="https://www.linkedin.com/in/rithyan/">
-<img src="https://img.shields.io/badge/LinkedIn-Rithyan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-</p>
+- SaaS features and internal tools
+- growth dashboards and analytics
+- automations with APIs and workflows
+- AI-assisted systems
+- things that connect product, marketing and revenue
 
 ---
 
-<!-- FOOTER -->
 <p align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00C9A7,100:2C5364"/>
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:14b8a6,100:1e293b" />
 </p>
