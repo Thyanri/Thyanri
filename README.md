@@ -2,73 +2,68 @@
   <img src="./assets/hero.svg" alt="Thyan — software engineer, growth systems, ai automations" width="840"/>
 </picture>
 
+<br>
+
 <p>
   <a href="https://www.linkedin.com/in/rithyan/">
-    <img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?style=flat&logo=linkedin&logoColor=white&labelColor=2c2e31&color=2c2e31" alt="LinkedIn" height="20"/>
+    <img src="https://img.shields.io/badge/linkedin-connect-%230A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=2c2e31&color=2c2e31" alt="LinkedIn" height="22"/>
   </a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=Thyanri&style=flat&color=646669&label=views" alt="profile views" height="20"/>
+  &nbsp;&nbsp;
+  <a href="mailto:rithyanaraujo@gmail.com">
+    <img src="https://img.shields.io/badge/email-contact-%23d1d0c5?style=flat-square&logo=gmail&logoColor=white&labelColor=2c2e31&color=2c2e31" alt="Email" height="22"/>
+  </a>
+  &nbsp;&nbsp;
+  <img src="https://komarev.com/ghpvc/?username=Thyanri&style=flat-square&color=2c2e31&label=profile+views" alt="profile views" height="22"/>
 </p>
 
 <br>
 
-### about
+<!-- ═══════════════════════════════════════ ABOUT ═══════════════════════════════════════ -->
 
-I build software that needs to work, sell, and scale.
+<img src="./assets/about.svg" width="840" alt="About — I build software that needs to work, sell, and scale."/>
 
-Focused on product engineering, growth systems, and AI automations.  
-Background in gaming and esports — competitive by default.
+<br><br>
 
-> useful systems over noise.
+<!-- ═══════════════════════════════════════ NOW ═══════════════════════════════════════ -->
 
-<br>
+<img src="./assets/now.svg" width="840" alt="Now — shipping SaaS, building AI pipelines, improving 1% daily"/>
 
-<img src="./assets/divider.svg" width="840" alt=""/>
+<br><br>
 
-<br>
-
-### now
-
-- shipping SaaS products and revenue-driving features
-- building AI automation pipelines
-- getting better every day, even if it's only 1%
-
-<br>
-
-<img src="./assets/divider.svg" width="840" alt=""/>
-
-<br>
+<!-- ═══════════════════════════════════════ STACK ═══════════════════════════════════════ -->
 
 <details>
-<summary><sub>selected stack</sub></summary>
+<summary>&nbsp;&nbsp;<sub>▸ tech stack</sub></summary>
 
 <br>
 
-`TypeScript` · `Python` · `React` · `Next.js` · `Node.js` · `FastAPI`  
-`PostgreSQL` · `Redis` · `Docker` · `AWS` · `Vercel`  
-`LangChain` · `OpenAI` · `Stripe` · `GitHub Actions`
+<img src="./assets/stack.svg" width="840" alt="Tech stack — TypeScript, Python, React, Next.js, Node.js, FastAPI, PostgreSQL, Redis, Docker, AWS"/>
 
 </details>
 
 <br>
 
+<!-- ═══════════════════════════════════════ METRICS ═══════════════════════════════════════ -->
+
 <details>
-<summary><sub>metrics</sub></summary>
+<summary>&nbsp;&nbsp;<sub>▸ github metrics</sub></summary>
 
 <br>
 
 <p>
-  <img src="./github-metrics.svg" width="400" alt="github metrics"/>
-  &nbsp;&nbsp;
-  <img src="./github-metrics-right.svg" width="400" alt="github metrics detail"/>
+  <img src="./github-metrics.svg" width="410" alt="github metrics"/>
+  &nbsp;
+  <img src="./github-metrics-right.svg" width="410" alt="github metrics detail"/>
 </p>
 
 </details>
 
 <br>
 
+<!-- ═══════════════════════════════════════ CONTRIBUTIONS ═══════════════════════════════════════ -->
+
 <details>
-<summary><sub>contribution map</sub></summary>
+<summary>&nbsp;&nbsp;<sub>▸ contribution map</sub></summary>
 
 <br>
 
@@ -82,16 +77,39 @@ Background in gaming and esports — competitive by default.
 
 <br>
 
+<!-- ═══════════════════════════════════════ FEATURED ═══════════════════════════════════════ -->
+
 <details>
-<summary><sub>featured work</sub></summary>
+<summary>&nbsp;&nbsp;<sub>▸ featured work</sub></summary>
 
 <br>
 
-| project | focus | status |
-|---------|-------|--------|
-| <!-- project-1 --> **project name** | saas · growth | `active` |
-| <!-- project-2 --> **project name** | ai automation | `active` |
-| <!-- project-3 --> **project name** | internal tooling | `shipped` |
+<table>
+  <thead>
+    <tr>
+      <th align="left">project</th>
+      <th align="left">focus</th>
+      <th align="center">status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>project name</strong></td>
+      <td><sub>saas · growth</sub></td>
+      <td align="center"><code>active</code></td>
+    </tr>
+    <tr>
+      <td><strong>project name</strong></td>
+      <td><sub>ai automation</sub></td>
+      <td align="center"><code>active</code></td>
+    </tr>
+    <tr>
+      <td><strong>project name</strong></td>
+      <td><sub>internal tooling</sub></td>
+      <td align="center"><code>shipped</code></td>
+    </tr>
+  </tbody>
+</table>
 
 <sub>replace placeholders with actual projects when ready</sub>
 
@@ -99,8 +117,6 @@ Background in gaming and esports — competitive by default.
 
 <br>
 
-<img src="./assets/divider.svg" width="840" alt=""/>
+<!-- ═══════════════════════════════════════ FOOTER ═══════════════════════════════════════ -->
 
-<br>
-
-<sub>product, growth, and automation — one percent at a time.</sub>
+<img src="./assets/footer.svg" width="840" alt="product, growth, and automation — one percent at a time."/>

@@ -1,47 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="200" viewBox="0 0 840 200">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="240" viewBox="0 0 840 240">
   <defs>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#3a3d41" stroke-width="0.5" opacity="0.4"/>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#3a3d41" stroke-width="0.4" opacity="0.3"/>
     </pattern>
-    <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="8" cy="8" r="0.5" fill="#3a3d41" opacity="0.5"/>
+    </pattern>
+    <linearGradient id="accent-glow" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#e2b714" stop-opacity="0"/>
-      <stop offset="15%" stop-color="#e2b714" stop-opacity="0.8"/>
-      <stop offset="85%" stop-color="#e2b714" stop-opacity="0.8"/>
+      <stop offset="30%" stop-color="#e2b714" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#e2b714" stop-opacity="0.6"/>
       <stop offset="100%" stop-color="#e2b714" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="bg-grad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#2c2e31"/>
-      <stop offset="100%" stop-color="#323437"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a2c2f"/>
+      <stop offset="50%" stop-color="#323437"/>
+      <stop offset="100%" stop-color="#2c2e31"/>
     </linearGradient>
+    <linearGradient id="card-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a3d41" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#3a3d41" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
-  <!-- background -->
-  <rect width="840" height="200" fill="url(#bg-grad)" rx="6"/>
+  <!-- main background -->
+  <rect width="840" height="240" fill="url(#bg)" rx="8"/>
 
-  <!-- grid overlay -->
-  <rect width="840" height="200" fill="url(#grid)" rx="6"/>
+  <!-- grid layer -->
+  <rect width="840" height="240" fill="url(#grid)" rx="8"/>
 
-  <!-- subtle top border accent -->
-  <rect x="0" y="0" width="840" height="2" fill="url(#accent-line)" rx="1"/>
+  <!-- dots overlay on right -->
+  <rect x="500" y="0" width="340" height="240" fill="url(#dots)" rx="8" opacity="0.6"/>
 
-  <!-- left vertical accent bar -->
-  <rect x="48" y="52" width="3" height="96" fill="#e2b714" opacity="0.7" rx="1.5"/>
+  <!-- top accent line -->
+  <rect x="0" y="0" width="840" height="2" fill="url(#accent-glow)"/>
+
+  <!-- decorative corner brackets — top left -->
+  <path d="M 28 28 L 28 48" stroke="#3a3d41" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M 28 28 L 48 28" stroke="#3a3d41" stroke-width="1" fill="none" opacity="0.6"/>
+
+  <!-- decorative corner brackets — bottom right -->
+  <path d="M 812 212 L 812 192" stroke="#3a3d41" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M 812 212 L 792 212" stroke="#3a3d41" stroke-width="1" fill="none" opacity="0.6"/>
+
+  <!-- status indicator -->
+  <circle cx="56" cy="56" r="4" fill="#e2b714" opacity="0.8" filter="url(#glow)"/>
+  <text x="70" y="60" fill="#646669" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', monospace" font-size="10" letter-spacing="1.5">AVAILABLE FOR WORK</text>
+
+  <!-- left accent bar -->
+  <rect x="40" y="80" width="3" height="100" fill="#e2b714" opacity="0.6" rx="1.5"/>
 
   <!-- name -->
-  <text x="72" y="100" fill="#d1d0c5" font-family="'Segoe UI', 'SF Pro Display', system-ui, sans-serif" font-size="32" font-weight="600" letter-spacing="1">Thyan</text>
+  <text x="60" y="118" fill="#d1d0c5" font-family="'Segoe UI', 'SF Pro Display', system-ui, sans-serif" font-size="42" font-weight="700" letter-spacing="0.5">Thyan</text>
 
-  <!-- tagline -->
-  <text x="72" y="132" fill="#646669" font-family="'Segoe UI', 'SF Pro Text', system-ui, sans-serif" font-size="14" font-weight="400" letter-spacing="2.5">
-    <tspan>software engineer</tspan>
-    <tspan fill="#3a3d41" dx="8">•</tspan>
-    <tspan dx="8">growth systems</tspan>
-    <tspan fill="#3a3d41" dx="8">•</tspan>
-    <tspan dx="8">ai automations</tspan>
+  <!-- role line -->
+  <text x="60" y="148" fill="#646669" font-family="'SF Mono', 'Cascadia Code', monospace" font-size="13" letter-spacing="2">
+    <tspan fill="#e2b714">&#x25B8;</tspan>
+    <tspan dx="6">software engineer</tspan>
+    <tspan fill="#3a3d41" dx="10">|</tspan>
+    <tspan dx="10">growth systems</tspan>
+    <tspan fill="#3a3d41" dx="10">|</tspan>
+    <tspan dx="10">ai automations</tspan>
   </text>
 
-  <!-- subtle bottom line -->
-  <rect x="48" y="180" width="744" height="1" fill="#3a3d41" opacity="0.5"/>
+  <!-- philosophy -->
+  <text x="60" y="180" fill="#646669" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" font-style="italic" letter-spacing="0.8" opacity="0.7">"getting better every day, even if it's only 1%"</text>
 
-  <!-- small accent dot -->
-  <circle cx="796" cy="180" r="2" fill="#e2b714" opacity="0.5"/>
+  <!-- right side decorative panel -->
+  <rect x="620" y="60" width="180" height="120" fill="#2c2e31" rx="4" stroke="url(#card-border)" stroke-width="0.5"/>
+  <text x="636" y="84" fill="#646669" font-family="'SF Mono', monospace" font-size="9" letter-spacing="1">FOCUS</text>
+  <rect x="636" y="90" width="20" height="1.5" fill="#e2b714" opacity="0.5" rx="0.75"/>
+  <text x="636" y="110" fill="#d1d0c5" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" opacity="0.9">Product Engineering</text>
+  <text x="636" y="128" fill="#d1d0c5" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" opacity="0.9">SaaS &amp; Revenue</text>
+  <text x="636" y="146" fill="#d1d0c5" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" opacity="0.9">AI Automations</text>
+  <text x="636" y="164" fill="#d1d0c5" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" opacity="0.9">Growth Systems</text>
+
+  <!-- bottom line -->
+  <rect x="40" y="220" width="760" height="1" fill="#3a3d41" opacity="0.4"/>
+  <circle cx="804" cy="220" r="2.5" fill="#e2b714" opacity="0.4"/>
 </svg>
