@@ -40,4 +40,16 @@
 
 <br>
 
+<p>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Thyanri&theme=dark&background=323437&ring=e2b714&fire=e2b714&currStreakLabel=d1d0c5&sideLabels=d1d0c5&border=3a3d41&stroke=3a3d41&dates=646669&currStreakNum=d1d0c5&sideNums=d1d0c5" alt="streak" height="180"/>
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Thyanri&layout=compact&theme=dark&bg_color=323437&title_color=e2b714&text_color=d1d0c5&border_color=3a3d41&hide_border=false&langs_count=8" alt="top languages" height="180"/>
+</p>
+
+<br><br>
+
+<img src="./assets/divider.svg" width="840" alt=""/>
+
+<br>
+
 <img src="./assets/footer.svg" width="840" alt="one percent at a time"/>
