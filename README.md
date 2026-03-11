@@ -1,90 +1,106 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,50:1e293b,100:14b8a6&text=Thyan%20Rithyan&fontAlign=50&fontAlignY=38&fontSize=52&desc=Software%20Engineer%20%E2%80%A2%20Growth%20Systems%20%E2%80%A2%20AI%20Automations&descAlign=50&descAlignY=64&animation=fadeIn" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=900&color=14B8A6&center=true&vCenter=true&width=900&lines=I+build+software+that+needs+to+work%2C+sell%2C+and+scale.;Code.+Growth.+Automation.+Execution.;Always+improving+1%25+every+day." />
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/rithyan/">
-    <img src="https://img.shields.io/badge/LinkedIn-Rithyan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=Thyanri&style=for-the-badge&color=0ea5e9" alt="profile views" />
-</p>
-
----
-
-## About me
-
-I build software, growth systems and automations.
-
-My background sits between:
-
-- software engineering
-- SaaS and revenue growth
-- AI workflows and automations
-- product thinking
-- gaming / esports media
-
-I like building things that are useful in the real world:
-
-- internal tools
-- commercial systems
-- automations
-- dashboards
-- AI agents
-
-> I don't care much about noise.  
-> I care about execution, leverage and getting 1% better every day.
-
----
-
-## Core metrics
-
-<p align="center">
-  <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
-</p>
-
----
-
-## Deep dive
-
-<p align="center">
-  <img src="./github-metrics-right.svg" alt="GitHub Metrics Right" width="49%" />
-  <img src="https://streak-stats.demolab.com?user=Thyanri&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" width="49%" />
-</p>
-
----
-
-## Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,ts,java,lua,nodejs,react,nextjs,docker,redis,supabase,postgres,git,github" />
-</p>
-
----
-
-## Contribution snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Thyanri/Thyanri/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Thyanri/Thyanri/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Thyanri/Thyanri/output/github-contribution-grid-snake.svg" />
+﻿<picture>
+  <img src="./assets/hero.svg" alt="Thyan — software engineer, growth systems, ai automations" width="840"/>
 </picture>
 
----
-
-## What I usually build
-
-- SaaS features and internal tools
-- growth dashboards and analytics
-- automations with APIs and workflows
-- AI-assisted systems
-- things that connect product, marketing and revenue
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:14b8a6,100:1e293b" />
+<p>
+  <a href="https://www.linkedin.com/in/rithyan/">
+    <img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?style=flat&logo=linkedin&logoColor=white&labelColor=2c2e31&color=2c2e31" alt="LinkedIn" height="20"/>
+  </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=Thyanri&style=flat&color=646669&label=views" alt="profile views" height="20"/>
 </p>
+
+<br>
+
+### about
+
+I build software that needs to work, sell, and scale.
+
+Focused on product engineering, growth systems, and AI automations.  
+Background in gaming and esports — competitive by default.
+
+> useful systems over noise.
+
+<br>
+
+<img src="./assets/divider.svg" width="840" alt=""/>
+
+<br>
+
+### now
+
+- shipping SaaS products and revenue-driving features
+- building AI automation pipelines
+- getting better every day, even if it's only 1%
+
+<br>
+
+<img src="./assets/divider.svg" width="840" alt=""/>
+
+<br>
+
+<details>
+<summary><sub>selected stack</sub></summary>
+
+<br>
+
+`TypeScript` · `Python` · `React` · `Next.js` · `Node.js` · `FastAPI`  
+`PostgreSQL` · `Redis` · `Docker` · `AWS` · `Vercel`  
+`LangChain` · `OpenAI` · `Stripe` · `GitHub Actions`
+
+</details>
+
+<br>
+
+<details>
+<summary><sub>metrics</sub></summary>
+
+<br>
+
+<p>
+  <img src="./github-metrics.svg" width="400" alt="github metrics"/>
+  &nbsp;&nbsp;
+  <img src="./github-metrics-right.svg" width="400" alt="github metrics detail"/>
+</p>
+
+</details>
+
+<br>
+
+<details>
+<summary><sub>contribution map</sub></summary>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Thyanri/Thyanri/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Thyanri/Thyanri/output/github-contribution-grid-snake.svg"/>
+  <img alt="contribution grid snake animation" src="https://raw.githubusercontent.com/Thyanri/Thyanri/output/github-contribution-grid-snake-dark.svg" width="840"/>
+</picture>
+
+</details>
+
+<br>
+
+<details>
+<summary><sub>featured work</sub></summary>
+
+<br>
+
+| project | focus | status |
+|---------|-------|--------|
+| <!-- project-1 --> **project name** | saas · growth | `active` |
+| <!-- project-2 --> **project name** | ai automation | `active` |
+| <!-- project-3 --> **project name** | internal tooling | `shipped` |
+
+<sub>replace placeholders with actual projects when ready</sub>
+
+</details>
+
+<br>
+
+<img src="./assets/divider.svg" width="840" alt=""/>
+
+<br>
+
+<sub>product, growth, and automation — one percent at a time.</sub>
