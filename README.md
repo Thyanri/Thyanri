@@ -1,6 +1,6 @@
 <!-- HEADER ANIMADO -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:00C9A7&height=200&section=header&text=Thyan%20Rithyan&fontSize=40&fontAlignY=35&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:00C9A7&height=200&section=header&text=Thyan%20&fontSize=40&fontAlignY=35&animation=fadeIn" />
 </p>
 
 <!-- TEXTO DIGITANDO -->
